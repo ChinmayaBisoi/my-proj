@@ -79,10 +79,7 @@ const TicTacToe = () => {
   const checkForWinner = () => {
     // for (let i = 0; i < winningCondition.length; i++) {
     //   let arr = winningCondition[i];
-    // console.log(arr[0], board[arr[0]]);
-    // console.log(arr[1], board[arr[1]]);
-    // console.log(arr[2], board[arr[2]]);
-    // console.log((board[arr[0]] == board[arr[1]]) !== null);
+    // hello
     if ((board[0] === board[1]) === board[2] && board[1] !== null) {
       return true;
     } else {
